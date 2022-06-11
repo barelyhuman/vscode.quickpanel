@@ -1,0 +1,35 @@
+.quick-input-widget {
+    top: 20% !important;
+    translate: transformY(-20%);
+    border-radius: 6px;
+}
+
+.quick-input-widget .monaco-inputbox {
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.quick-input-widget .quick-input-header {
+    padding: 8px 8px 4px 8px !important;
+}
+
+.quick-input-widget .quick-input-list {
+    padding-top: 4px;
+}
+
+
+.quick-input-widget .quick-input-list-row {
+    height: 100px !important;
+}
+
+.quick-input-widget .quick-input-list-row .monaco-icon-label:before {
+    height: 32px;
+}
+
+.quick-input-widget .quick-input-list {
+    line-height: 32px !important;
+}
+
+.quick-input-widget .monaco-list-rows .monaco-list-row {
+    transition: top 150ms ease-in-out;
+}
